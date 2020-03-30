@@ -31,8 +31,7 @@ for ch in commands:
         tess.shape("turtle")
         tess.stamp()
     elif ch == 'D': 
-        tess.shape("dot")
-        tess.stamp()
+        tess.dot()
     elif ch == 'B':
         tess.backward(50)
     elif ch == 'p':
